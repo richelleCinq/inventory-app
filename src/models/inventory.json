@@ -1,0 +1,5 @@
+[{"SKU": "ch-1200", "name": "lounge chair", "qty": 10, "price": 910.99},
+ {"SKU": "ch-1400", "name": "tulip chair", "qty": 17, "price": 194.10},
+ {"SKU": "ch-1500", "name": "office chair", "qty": 23, "price": 167.89},
+ {"SKU": "ch-1600", "name": "stool chair", "qty": 12, "price": 112.50},
+ {"SKU": "ch-1800", "name": "dinning chair", "qty":33, "price": 187.99}]
