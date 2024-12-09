@@ -1,5 +1,5 @@
-[{"SKU": "ch-1200", "name": "lounge chair", "qty": 10, "price": 910.99},
- {"SKU": "ch-1400", "name": "tulip chair", "qty": 17, "price": 194.10},
- {"SKU": "ch-1500", "name": "office chair", "qty": 23, "price": 167.89},
- {"SKU": "ch-1600", "name": "stool chair", "qty": 12, "price": 112.50},
- {"SKU": "ch-1800", "name": "dinning chair", "qty":33, "price": 187.99}]
+[{"SKU": "ch-1200", "name": "lounge chair", "qty": 10, "price": 910.99, "descripton" : "inspired by Eames Lounge Chair and Ottoman", "image" : "https://www.furnitureandrefurbishment.co.uk/images/Charles_Eames_Style_leather_lounge_chair__3.jpg" },
+ {"SKU": "ch-1400", "name": "tulip chair", "qty": 17, "price": 194.10, "descripton" : "inspired by Eero Saarinen's design in 1955 for the Knoll company", "image" : "https://www.design-mkt.com/614186/vintage-tulip-chair-by-eero-saarinen-.jpg"},
+ {"SKU": "ch-1500", "name": "office chair", "qty": 23, "price": 167.89, "descripton" : "just a black office chair", "image" : "https://i5.walmartimages.com/asr/c449c8f1-5159-44ba-9fc0-77d184c901ab_1.97a7a57940ba061651c1918747e1c6ab.jpeg"},
+ {"SKU": "ch-1600", "name": "stool chair", "qty": 12, "price": 112.50, "descripton" : "grandma's kitchen stool chair", "image" : "https://png.pngtree.com/png-vector/20231013/ourmid/pngtree-simple-stool-chair-png-image_10157279.png"},
+ {"SKU": "ch-1800", "name": "dinning chair", "qty":33, "price": 187.99, "descripton" : "grandma's kitchen dinning chair", "image" : "https://images.furnituredealer.net/img/products/coaster/color/modern%20dining%20-%20-181734809_100515blk-b0.jpg"}]
