@@ -1,16 +1,29 @@
+import '../css/Inventory.css';
+import InventoryItem from './InventoryItem'; 
+import React, { useEffect, useState } from "react";
 
+const api = 'https://richellecinq.github.io/inventory-app/src/models/inventory.json'; //json API url
 
 export default function InventoryList() {
+    const [inventoryList, setInventoryList] = useState([]);
+
+
+    useEffect(() => {
+        fetch(api)
+            .then((response) => response.json())
+            .then((data) => setInventoryList(data))
+            .catch((err) => console.error(err));
+    }, []);
+
     return (
-        <div className="container">
-            {this.state.inventoryList.map((InventoryItem) => (
-            <div className="item-container"  key = {InventoryItem.SKU} >
-                    <p className="item-name">Name: {InventoryItem.name}</p>
-                    <p className="item-sku">SKU : No.{InventoryItem.SKU}</p>
-                    <p className="item-qty">Quantity: {InventoryItem.qty}</p> 
-                    <p className="item-price">Price: ${InventoryItem.price}</p>
+        <>
+            <h1>Limn's Chair Items Inventory</h1>
+            <hr />
+            <div className="container">
+                {inventoryList.map((item) => (
+                    <InventoryItem className="item-container" key={item.SKU} item ={item}/>
+                ))}
             </div>
-            ))}
-        </div>
-    )
+        </>
+    );
 }
