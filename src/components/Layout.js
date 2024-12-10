@@ -1,6 +1,6 @@
-import Header from './components/Header'; 
-import Inventory from './components/InventoryList'; 
-import Footer from './components/Footer';
+import Header from './Header'; 
+import Inventory from './InventoryList'; 
+import Footer from './Footer';
 import React from "react";
 
 

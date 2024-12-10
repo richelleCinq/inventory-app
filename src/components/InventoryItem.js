@@ -1,9 +1,10 @@
 import React from "react";
 import '../css/Inventory.css'; 
-// import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 export default function InventoryItem({item}) {
     return (
+        <Link to={`/inventoryItem/${item.SKU}`} >
         <div className="container">
             <div className="item-container" >
                     <p className="item-name">Name: {item.name}</p>
@@ -12,5 +13,6 @@ export default function InventoryItem({item}) {
                     <p className="item-price">Price: ${item.price}</p>
             </div>
         </div>
+        </Link>
     );
 }
